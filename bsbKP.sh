@@ -2,7 +2,7 @@
 # V 1.5
 # BSB updater made for 6.17.7 arch
 
-cd cd ~/Desktop/
+cd ~/Desktop/
 # get tool
 
 sudo pacman -S devtools base-devel pacman-contrib
@@ -53,7 +53,7 @@ time makepkg -s --skippgpcheck
 sudo pacman -U BSBvrARCH-*.pkg.tar.zst
 
 # add to grub+
-# sudo grub-mkconfig -o /boot/grub/grub.cfg
+#sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 # clean up
 rm -rf ~/Desktop/buildingthatvrlinuxthing
@@ -67,4 +67,3 @@ rm -rf ~/Desktop/buildingthatvrlinuxthing
 
 #mv WlxOverlay-S-v25.4.2-x86_64.AppImage ~/VRthings/
 #chmod +x ~VRthings/WlxOverlay-S-v25.4.2-x86_64.AppImage
-
